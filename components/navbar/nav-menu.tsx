@@ -15,7 +15,7 @@ function NavMenu() {
           <Link
             href={link.path}
             key={index}
-            className={`${link.path === pathname && "text-secondary border-b-2 border-secondary"}
+            className={`${link.path === pathname && "text-accent border-b-2 border-accent"}
               capitalize font-medium hover:text-accent transition-all`}
           >
             {link.name}
