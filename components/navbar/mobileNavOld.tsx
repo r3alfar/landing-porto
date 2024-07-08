@@ -7,7 +7,7 @@ import { Menu as MenuIcon } from 'lucide-react';
 
 const mobileItems = ['A', 'B', 'C'];
 
-export default function MobileNav() {
+export default function MobileNav2() {
   const [open, setOpen] = useState(false);
 
   return (
