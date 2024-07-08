@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import DesktopNav from './desktopNav'
-import MobileNav from './mobileNav'
 import { Button } from '@/components/ui/button'
 import NavMenu from './nav-menu'
+import MobileNav from './MobileNav'
 
 function MyNavbar() {
   return (
@@ -36,7 +36,7 @@ function MyNavbar() {
         <div
           className='xl:hidden'
         >
-          mobile nav
+          <MobileNav />
         </div>
       </div>
     </header>

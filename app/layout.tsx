@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import MyNavbar from "@/components/navbar/myNavbar";
+import StairTransition from "@/components/page-transition/StairTransition";
+import PageTransition from "@/components/page-transition/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <MyNavbar />
-        {children}
+        <StairTransition />
+        <PageTransition>
+          {children}
+        </PageTransition>
+
       </body>
     </html>
   );
