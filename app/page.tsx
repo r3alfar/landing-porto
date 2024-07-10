@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowBigDownDashIcon } from "lucide-react"
 import Social from "@/components/section/Social"
 import Photo from "@/components/section/Photo";
+import Stats from "@/components/section/Stats";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }
