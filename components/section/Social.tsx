@@ -5,11 +5,11 @@ import { FaGithub, FaLinkedinIn, FaYoutube, FaSquareXTwitter } from "react-icons
 const socials = [
   {
     icon: <FaGithub />,
-    path: '#',
+    path: 'https://github.com/r3alfar',
   },
   {
     icon: <FaLinkedinIn />,
-    path: '#',
+    path: 'https://www.linkedin.com/in/muhammad-farrel-adivia-a239801a9/',
   },
   {
     icon: <FaYoutube />,
@@ -17,7 +17,7 @@ const socials = [
   },
   {
     icon: <FaSquareXTwitter />,
-    path: '#',
+    path: 'https://x.com/farreladivia',
   },
 ]
 

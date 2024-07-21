@@ -15,142 +15,155 @@ import WorkSlider from "@/components/section/WorkSlider";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, rem doloribus doloremque asperiores dolor corporis commodi reprehenderit minus aut ipsum.",
+    title: "Nextjs Datatable CRUD",
+    description: "Simple data table to provide project timesheet. Build under Nextjs 14 App Router with Prefetched data",
     tag: ["All", "Web"],
-    stack: [
-      {
-        name: "Html 5"
-      },
-      {
-        name: "Javascript",
-      },
-      {
-        name: "Css 3"
-      }
-    ],
-    image: "/assets/work/thumb1.png",
-    gitUrl: "/",
-    previewUrl: "/",
-    category: "fullstack"
-  },
-  {
-    id: 2,
-    title: "Potography Portfolio Website",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
     stack: [
       {
         name: "Next.js"
       },
       {
-        name: "Javascript",
+        name: "React JS",
+      },
+      {
+        name: "Tailwind CSS"
+      },
+      {
+        name: "Shadcn UI"
+      },
+      {
+        name: "Postgre SQL"
+      }
+    ],
+    image: "/assets/work/timesheet.png",
+    gitUrl: "https://github.com/r3alfar/timesheet-app",
+    previewUrl: "https://timesheet-app-mu.vercel.app",
+    category: "fullstack"
+  },
+  {
+    id: 2,
+    title: "Simple Pomodoro App with tasklist",
+    description: "Stay focused using pomodoro technique and track your tasks",
+    stack: [
+      {
+        name: "Vite"
+      },
+      {
+        name: "React JS",
       },
       {
         name: "Tailwind css"
+      },
+      {
+        name: "Shadcn UI"
       }
     ],
-    image: "/assets/work/2.png",
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/assets/work/vite-pomodoro.png",
+    gitUrl: "https://github.com/r3alfar/vite-pomodoro",
+    previewUrl: "https://vite-pomodoro.vercel.app",
     category: "frontend",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
+    title: "Simple Food Community Page",
+    description: "Join and share your favorite cuisines in our community.",
     stack: [
       {
-        name: "Html 5"
+        name: "Nextjs"
       },
       {
-        name: "Javascript",
+        name: "React Js",
       },
       {
-        name: "Css 3"
+        name: "AWS S3"
       }
     ],
-    image: "/assets/work/3.png",
-    gitUrl: "/",
+    image: "/assets/work/foodNextjs.png",
+    gitUrl: "https://github.com/r3alfar/learn-next",
     previewUrl: "/",
     category: "fullstack",
   },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
-    stack: [
-      {
-        name: "Html 5"
-      },
-      {
-        name: "Javascript",
-      },
-      {
-        name: "Css 3"
-      }
-    ],
-    image: "/assets/work/5.png",
-    gitUrl: "/",
-    previewUrl: "/",
-    category: "fullstack"
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
-    stack: [
-      {
-        name: "Html 5"
-      },
-      {
-        name: "Javascript",
-      },
-      {
-        name: "Css 3"
-      }
-    ],
-    image: "/assets/work/4.png",
-    gitUrl: "/",
-    previewUrl: "/",
-    category: "frontend",
-  },
+  // {
+  //   id: 4,
+  //   title: "Food Ordering Application",
+  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
+  //   stack: [
+  //     {
+  //       name: "Html 5"
+  //     },
+  //     {
+  //       name: "Javascript",
+  //     },
+  //     {
+  //       name: "Css 3"
+  //     }
+  //   ],
+  //   image: "/assets/work/5.png",
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  //   category: "fullstack"
+  // },
+  // {
+  //   id: 5,
+  //   title: "React Firebase Template",
+  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
+  //   stack: [
+  //     {
+  //       name: "Html 5"
+  //     },
+  //     {
+  //       name: "Javascript",
+  //     },
+  //     {
+  //       name: "Css 3"
+  //     }
+  //   ],
+  //   image: "/assets/work/4.png",
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  //   category: "frontend",
+  // },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
+    title: "Centralized GO Rest API [Ongoing]",
+    description: "Personal Centralize Backend API, integrated to several services like AWS or VercelPostgre",
     stack: [
       {
-        name: "Html 5"
+        name: "Golang"
       },
       {
-        name: "Javascript",
+        name: "REST API",
       },
       {
-        name: "Css 3"
+        name: "GO chi"
+      }, {
+        name: "AWS"
       }
     ],
     image: "/assets/work/6.png",
-    gitUrl: "/",
+    gitUrl: "https://github.com/r3alfar/go-porto-backend",
     previewUrl: "/",
     category: "fullstack"
   },
   {
     id: 7,
-    title: 'Integrating API and CRON jobs',
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus obcaecati nisi, consectetur ducimus.",
+    title: 'Integrating API and CRON jobs [Maintenance]',
+    description: "Simple Valorant match and stats tracking fetched daily",
     stack: [
       {
-        name: "Html 5"
+        name: "Vite"
       },
       {
-        name: "Javascript",
+        name: "React JS",
       },
       {
-        name: "Css 3"
+        name: "Go-RestAPI"
+      }, {
+        name: "Tailwind CSS"
       }
     ],
     image: "/assets/work/7val.webp",
-    gitUrl: "/",
+    gitUrl: "https://github.com/r3alfar/valo-cron",
     previewUrl: "/",
     category: "backend",
   }
@@ -184,7 +197,7 @@ function WorkPage() {
                 {project.id}
               </div>
               {/* project category */}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
+              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize"> {project.title}</h2>
               {/* oroiject descrip */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
