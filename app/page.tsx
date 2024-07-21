@@ -23,7 +23,7 @@ export default function Home() {
               Hello I&apos;m <br /> <span className="text-accent">Farrel Adivia</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Enthusiastic and self-motivated software engineer focused on learning in Fullstack development, exposed in all aspects of web development frontend and backend. Recently I have decided that I need a career reset to pursue better fundamentals and learn to love more to code. I'm a "career changer" I always keen to learn deep into the fundamentals of the languages and moving with the latest technologies required to work with it
+              Enthusiastic and self-motivated software engineer focused on learning in Fullstack development, exposed in all aspects of web development frontend and backend. Recently I have decided that I need a career reset to pursue better fundamentals and learn to love more to code. I&apos;m a &quot;career changer&quot; I always keen to learn deep into the fundamentals of the languages and moving with the latest technologies required to work with it
             </p>
             {/* btn */}
             <div
